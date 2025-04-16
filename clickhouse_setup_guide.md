@@ -84,7 +84,7 @@ This guide walks you through installing ClickHouse on windows and setting up a d
 ## ⚙️ Step 3: Configure ZeoTap Integration Tool
 
 1. Start the integration tool and open in your browser:  
-   [http://localhost:8081](http://localhost:8081)
+   [http://localhost:5000](http://localhost:5000)
 
 2. Use the following settings when configuring ClickHouse:
 

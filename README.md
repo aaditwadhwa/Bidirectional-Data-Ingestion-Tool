@@ -29,22 +29,6 @@ A **web-based data ingestion tool** enabling **bidirectional data transfer** bet
 
 ---
 
-## 🧰 Tech Stack
-
-- **Backend**: Java, Spring Boot  
-- **Frontend**: Thymeleaf, Bootstrap 5, jQuery  
-- **Database**: ClickHouse (via JDBC)  
-- **File I/O**: Apache Commons CSV
-
----
-
-## 🛠️ Prerequisites
-
-- Java 8+
-- Maven 3.6+
-- ClickHouse (local Docker or cloud-based instance)
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -106,7 +90,20 @@ http://localhost:8081
 
 ---
 
-All prompts used are recorded in `prompts.txt` and checked into the repository.
+## 🧰 Tech Stack
+
+- **Backend**: Java, Spring Boot  
+- **Frontend**: Thymeleaf, Bootstrap 5, jQuery  
+- **Database**: ClickHouse (via JDBC)  
+- **File I/O**: Apache Commons CSV
+
+---
+
+## 🛠️ Prerequisites
+
+- Java 8+
+- Maven 3.6+
+- ClickHouse (local Docker or cloud-based instance)
 
 ---
 

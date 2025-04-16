@@ -51,8 +51,7 @@ A **web-based data ingestion tool** enabling **bidirectional data transfer** bet
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aaditwadhwa/zeotap-assignment.git
-cd ClickHouse-Flat-File-Data-Ingestion-Tool
+https://github.com/aaditwadhwa/Bidirectional-Data-Ingestion-Tool.git
 ```
 
 ### 2. Build the Project
@@ -107,60 +106,6 @@ http://localhost:8081
 
 ---
 
-### 🔗 Bonus: Multi-Table JOIN (ClickHouse)
-
-1. Select **ClickHouse** as source  
-2. Enable the **Multi-Table Join** option  
-3. Select additional tables  
-4. Enter JOIN condition (e.g., `table1.id = table2.fk_id`)  
-5. Proceed with column selection and ingestion steps
-
----
-
-## 🧪 Testing Scenarios
-
-| Test Case | Description |
-|-----------|-------------|
-| ✅ TC1 | **ClickHouse ➜ Flat File** (with selected columns) |
-| ✅ TC2 | **Flat File ➜ ClickHouse** (create new table) |
-| ✅ TC3 | *(Bonus)* ClickHouse multi-table JOIN ➜ Flat File |
-| ✅ TC4 | Invalid JWT / connection failure |
-| ✅ TC5 | *(Optional)* Test preview before ingestion |
-
-### Sample Datasets:
-
-- `uk_price_paid`  
-- `ontime`  
-Get them from: https://clickhouse.com/docs/en/getting-started/example-datasets/
-
----
-
-## ⚙️ Configuration
-
-Edit `src/main/resources/application.properties` to update:
-
-- Server port  
-- Default settings  
-
----
-
-## 📂 File Structure
-
-```
-├── src
-│   ├── main
-│   │   ├── java/... (Spring Boot backend)
-│   │   ├── resources/templates/... (HTML)
-├── pom.xml
-├── README.md
-└── prompts.txt (if AI tools were used)
-```
-
----
-
-## 🤖 AI Tooling
-
-**AI tools were used for assistance during development.**  
 All prompts used are recorded in `prompts.txt` and checked into the repository.
 
 ---
